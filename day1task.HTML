@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    .gd{
+
+       background-color:rgb(162, 0, 255);
+       grid-template-columns:100px 100px 100px 100px 100px ;
+       grid-template-rows:100px 100px ;
+       grid-auto-rows: 150px;
+       padding:10px;
+       display:grid;
+       gap:5px;
+      
+    }
+    .child{
+        background-color: aqua;
+        font-size:20px;
+        text-align:center;
+    }
+    .c1{
+        background-color: brown;
+        grid-column-start: 1;
+        grid-column-end:3;
+        grid-row-start: 1;
+        grid-row-end:3 ;
+    }
+    .c4{background-color: bisque;
+        grid-column-start: 3;
+        grid-column-end:4;
+        grid-row-start: 1;
+        grid-row-end:4;
+    
+    }
+    .c10{
+        background-color: pink;
+        grid-column-end: 2                                                              ;
+    }
+    .c11{
+            background-color: gray;
+            grid-column: 2/3;
+            grid-row:3;
+          }
+    .c12{
+        background-color: rgb(226, 43, 128);
+        grid-column:2/6;     
+
+    }
+    .c14{
+        background-color: rgb(42, 165, 69);
+        grid-column: 2/5;
+    }
+    .c5{
+        background-color: rgb(245, 230, 220);
+        grid-area: 2/4/4/6;
+
+    }
+    .c9{
+        background-color: black;
+        width: 310px;
+    }
+    </style>
+
+</head>
+<body>
+    <div class="gd">
+        <div class="child c1">1</div>
+        <div class="child c2">2</div>
+        <div class="child c3">3</div>
+        <div class="child c4">4</div>
+        <div class="child c5">5</div>
+        <div class="child c6">6</div>
+        <div class="child c7">7</div>
+        <div class="child c8">8</div>
+        <div class="child c9">9</div>
+        <div class="child c10">10</div>
+        <div class="child c11">11</div>
+        <div class="child c12">12</div>
+        <div class="child c13">13</div>
+        <div class="child c14">14</div>
+        <div class="child c15">15</div>
+        
+
+
+
+
+        </div>
+        
+        
+        
+    
+</body>
+</html>
